@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from deepface import DeepFace
 import json
 
-img= cv2.imread("smile.jpg")
+img= cv2.imread("sad.jpg")
 img_rgb = img[:, :, ::-1]#change from BGR to RGB
 plt.imshow(img_rgb)#adds image to plot
 plt.axis('off') #takes axis off plot
